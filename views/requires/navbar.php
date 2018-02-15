@@ -5,7 +5,7 @@
     <!--<nav class="nav-wrapper transparent font-raleway">-->
     <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
     <div class="container">        
-        <!--<span class="brand-logo light font-rancho font-size-50">QuadraWeb</span>-->
+        <!--<span class="brand-logo light font-rancho font-size-50">Game</span>-->
         <span class="brand-logo light font-rancho font-size-50"></span>
         <ul class="hide-on-small-only">
             <li><a href="notificacoes.php" class=""><i class="material-icons" style="height: 100%">more</i></a></li>

@@ -111,7 +111,7 @@ function enviarEmailValidarCadastro($nome, $email, $token) {
     $assunto = "Cadastro";
 
     $msg = file_get_contents(__DIR__.'/../../templates/NovoCadastro.html');
-    $msg = str_replace('/nome_site/', "<b>QuadraWeb</b>", $msg);
+    $msg = str_replace('/nome_site/', "<b>Game</b>", $msg);
     $msg = str_replace('/nome_usuario/', $nome, $msg);
     $msg = str_replace("/link_validacao/", $link_para_validar_email, $msg);
     

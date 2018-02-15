@@ -2,7 +2,7 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta charset="UTF-8">
-        <title>QuadraWeb | 500</title>        
+        <title>Game | 500</title>        
         <?php require("requires/links.php"); ?>
         <?php require("requires/imports.php"); ?>        
         <link href="../css/inicio.css" rel="stylesheet">

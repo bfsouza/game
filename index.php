@@ -3,7 +3,7 @@
 <html>
     <head>
         <meta http-equiv="refresh">
-        <title>QuadraWeb</title>        
+        <title>Game</title>        
     </head>
     <body>
 

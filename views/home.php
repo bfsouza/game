@@ -100,7 +100,7 @@ $rs_reservas_prox = mysqli_query($link, $sql_reservas_prox);
 <html>
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>QuadraWeb | Home</title>
+        <title>Game | Home</title>
         <?php require("requires/links.php"); ?>
         <?php require("requires/imports.php"); ?>
         <link href="../css/custom.css" rel="stylesheet">
