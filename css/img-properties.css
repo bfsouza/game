@@ -1,0 +1,26 @@
+.img-trocar-foto {
+    cursor: pointer;
+    width: 150px!important;
+    height: 150px!important;
+    object-fit: cover;
+}
+
+.img-trocar-foto:hover { 
+    opacity: 0.6;
+}
+
+.content-imagem {
+    display:inline-block;
+    position:relative    
+}
+
+.content-imagem i {
+    position:absolute;
+    bottom:0px;
+    right:20px;
+    border: 1px solid;
+    border-color: white;
+    background:white;
+    border-radius: 10px;
+    cursor: pointer
+}
