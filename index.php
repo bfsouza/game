@@ -1,4 +1,4 @@
-<?php header("location: views/inicio.php") ?>
+<?php header("location: views/home.php") ?>
 <!DOCTYPE html>
 <html>
     <head>

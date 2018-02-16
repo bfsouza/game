@@ -3,7 +3,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="shortcut icon" href="../resources/icon_mapa.ico" />
         <meta charset="UTF-8">
-        <title>Game | Meu Time</title>        
+        <title>Game | Jogos</title>        
         <?php require("requires/links.php"); ?>
         <?php require("requires/imports.php"); ?>        
         <link href="../css/inicio.css" rel="stylesheet">
