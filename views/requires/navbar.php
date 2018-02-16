@@ -6,7 +6,7 @@ $menu = basename($_SERVER['PHP_SELF'], '.php');
 <!-- Nav -->
 <nav class="nav-wrapper green darken-2 font-raleway">
     <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
-
+    
     <ul class="hide-on-small-only" style="margin-left: 20px">
         <li id="home"><a class="tooltipped" href="home.php" data-position="bottom" data-delay="50" data-tooltip="Home"><i class="material-icons" style="height: 100%">home</i></a></li>
         <li id="jogadores"><a class="tooltipped" href="jogadores.php" data-position="bottom" data-delay="50" data-tooltip="Jogadores"><i class="material-icons" style="height: 100%">people_outline</i></a></li>
@@ -14,17 +14,13 @@ $menu = basename($_SERVER['PHP_SELF'], '.php');
         <li id="treino"><a class="tooltipped" href="treino.php" data-position="bottom" data-delay="50" data-tooltip="Treino"><i class="material-icons" style="height: 100%">fitness_center</i></a></li>
         <li id="departamentoMedico"><a class="tooltipped" href="departamentoMedico.php" data-position="bottom" data-delay="50" data-tooltip="Departamento Médico"><i class="material-icons" style="height: 100%">healing</i></a></li>
         <li id="estadio"><a class="tooltipped" href="estadio.php" data-position="bottom" data-delay="50" data-tooltip="Estadio"><i class="material-icons" style="height: 100%">local_play</i></a></li>
-        <li id="mercado"><a class="tooltipped" href="mercado.php" data-position="bottom" data-delay="50" data-tooltip="Mercado"><i class="material-icons" style="height: 100%">import_export</i></a></li>
-        <li id="historicoTransferencia"><a class="tooltipped" href="historicoTransferencia.php" data-position="bottom" data-delay="50" data-tooltip="Histórico de Transferência"><i class="material-icons" style="height: 100%">history</i></a></li>
-        <li id="auxiliares"><a class="tooltipped" href="auxiliares.php" data-position="bottom" data-delay="50" data-tooltip="Auxiliares"><i class="material-icons" style="height: 100%">portrait</i></a></li>
+        <li id="mercado"><a class="tooltipped" href="mercado.php" data-position="bottom" data-delay="50" data-tooltip="Mercado"><i class="material-icons" style="height: 100%">import_export</i></a></li>        
         <li id="torcida"><a class="tooltipped" href="torcida.php" data-position="bottom" data-delay="50" data-tooltip="Torcida"><i class="material-icons" style="height: 100%">recent_actors</i></a></li>
         <li id="marketing"><a class="tooltipped" href="marketing.php" data-position="bottom" data-delay="50" data-tooltip="Marketing"><i class="material-icons" style="height: 100%">stars</i></a></li>
-        <li id="caixa"><a class="tooltipped" href="caixa.php" data-position="bottom" data-delay="50" data-tooltip="Caixa"><i class="material-icons" style="height: 100%">timeline</i></a></li>
-        <li id="pesquisar"><a class="tooltipped" href="pesquisar.php" data-position="bottom" data-delay="50" data-tooltip="Pesquisar"><i class="material-icons" style="height: 100%">find_replace</i></a></li>
+        <li id="caixa"><a class="tooltipped" href="caixa.php" data-position="bottom" data-delay="50" data-tooltip="Caixa"><i class="material-icons" style="height: 100%">timeline</i></a></li>        
     </ul>
-
-
-    <!-- SidNav -->
+    
+    <!-- SidNav -->    
     <ul id="slide-out" class="side-nav fixed">        
         <li>
             <div class="user-view">
@@ -61,6 +57,8 @@ $menu = basename($_SERVER['PHP_SELF'], '.php');
 <script>
     $(document).ready(function () {
         $('.tooltipped').tooltip({delay: 50});
+        $(".button-collapse").sideNav();
+        $(".dropdown-button").dropdown();
         $('#<?= $menu ?>').addClass("active");
         $('#<?= $menu ?>2').addClass("active");
     });
